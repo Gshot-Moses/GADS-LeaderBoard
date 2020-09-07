@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <data>
+
+        <variable
+            name="hoursLeader"
+            type="com.gshot.gadsleaderboard.models.HoursLeader" />
+
+    </data>
+
+    <androidx.cardview.widget.CardView android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        app:cardElevation="10dp"
+        android:background="@color/textColor"
+        android:layout_marginBottom="5dp">
+
+        <LinearLayout
+            android:orientation="horizontal" android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/image_view"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginRight="10dp"
+                setImageUrl="@{hoursLeader.badgeUrl}"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center_vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_normal_size"
+                    android:textColor="#CC262C2C"
+                    android:text="@{hoursLeader.name}"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_normal_size"
+                    android:textColor="@color/tabTextColor"
+                    android:layout_marginTop="2dp"
+                    android:text="@{hoursLeader.hoursCountry()}"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</layout>

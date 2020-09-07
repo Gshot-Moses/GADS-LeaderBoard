@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GADS LeaderBoard</string>
+    <string name="lastNameHint">Nom</string>
+    <string name="projectLinkGithubHint">Lien du Projet (GitHub)</string>
+    <string name="firstNameHint">"Prénom "</string>
+    <string name="toolbarTitle">LEADERBOARD</string>
+    <string name="submitText">"Soumettre "</string>
+    <string name="learningLeaders">Meilleurs Apprenants</string>
+    <string name="skillLeaders">Meilleurs Scores</string>
+    <string name="email_address">Adresse Email</string>
+    <string name="project_submission">Soumission  de projet</string>
+    <string name="confirmSend">Êtes-vous sûre ?</string>
+    <string name="supplyFirstName">Prenom Obligatoire</string>
+    <string name="supplyLastName">Nom Obligatoire</string>
+    <string name="supplyEmailAddress">Adresse Email Obligatoire</string>
+    <string name="supplyLink">Lien du Projet Obligatoire</string>
+    <string name="succes">"Soumis avec Succès "</string>
+    <string name="failed">Erreur de soumission</string>
+    <string name="checkConnection">Vérifier votre connexion internet et Réessayez</string>
+    <string name="failedLoad">Erreur de chargement. Réessayez</string>
+</resources>

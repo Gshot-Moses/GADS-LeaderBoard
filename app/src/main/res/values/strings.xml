@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">GADS LeaderBoard</string>
+    <string name="toolbarTitle">LEADERBOARD</string>
+    <string name="firstNameHint">First Name</string>
+    <string name="lastNameHint">Last Name</string>
+    <string name="projectLinkGithubHint">Project on GITHUB (link)</string>
+    <string name="submitText">Submit</string>
+    <string name="learningLeaders">Learning Leaders</string>
+    <string name="skillLeaders">Skill IQ Leaders</string>
+    <string name="email_address">Email Address</string>
+    <string name="project_submission">Project Submission</string>
+    <string name="confirmSend">Are you sure?</string>
+    <string name="supplyFirstName">First name mandatory</string>
+    <string name="supplyLastName">Last name mandatory</string>
+    <string name="supplyEmailAddress">Email address mandatory</string>
+    <string name="supplyLink">Project link mandatory</string>
+    <string name="succes">Submission Successful</string>
+    <string name="failed">Submission not Successful</string>
+    <string name="google_africa_text" translatable="false">Google Africa</string>
+    <string name="checkConnection">Check your internet connection and retry</string>
+    <string name="failedLoad">Failed to load data. Retry</string>
+    <string name="developer_scholarship" translatable="false">Developer Scholarship</string>
+</resources>
